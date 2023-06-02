@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student</title>
+</head>
+<body>
+    <form action="{{url_for('addrec')}}" method="post">
+        <h3>Student Information</h3>
+        <br />
+        <label>Name</label><br>
+        <input type="text" name="nm" /><br>
+
+        <label>Address</label><br>
+        <textarea  name="add" ></textarea><br>
+
+        <label>City</label><br>
+        <input type="text" name="city" /><br>
+
+        <label>Pincode</label><br>
+        <input type="text" name="pin" /><br>
+        <br />
+        <input type="submit" value="Submit" />
+    </form>
+</body>
+</html>
